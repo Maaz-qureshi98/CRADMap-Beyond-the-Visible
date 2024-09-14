@@ -1,6 +1,6 @@
 # Volumetric Mapping
 
-## Section I Introduction: Figure I 
+## Section I Introduction: Figure 1
 
 ![Experiment 1](https://github.com/Maaz-qureshi98/Volumetric-Mapping/blob/main/1.1.jpg)
 
@@ -13,7 +13,7 @@
 ![Experiment 1](https://github.com/Maaz-qureshi98/Volumetric-Mapping/blob/main/1.5.png)
 
 
-## Section IV: Experiment 2
+## Section IV: Experiment 2 Figure 5
 
 ![Experiment 2](https://github.com/Maaz-qureshi98/Volumetric-Mapping/blob/main/2.1.jpg)
 
@@ -28,7 +28,7 @@
 ![Experiment 2](https://github.com/Maaz-qureshi98/Volumetric-Mapping/blob/main/2.6.png)
 
 
-## Section IV: Experiment 3 
+## Section IV: Experiment 3 Figure 6
 
 ![Experiment 3](https://github.com/Maaz-qureshi98/Volumetric-Mapping/blob/main/3.1.jpg)
 
