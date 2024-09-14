@@ -1,4 +1,4 @@
-# VolumetricMapping
+# Volumetric Mapping
 
 ## Experiment 1 
 
