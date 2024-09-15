@@ -18,7 +18,7 @@ Code Availability: The code will be open-sourced after the acceptance of our res
 ![Experiment 2](https://github.com/Maaz-qureshi98/Volumetric-Mapping/blob/main/2.1.jpg)
 
 ![Experiment 2](https://github.com/Maaz-qureshi98/Volumetric-Mapping/blob/main/2.2.jpg)
-- Volumetric map of the 3rd floor corridor of Uwaterloo engineering 7 building. The annotation in the red boundry box shows the location of pipe. 1) the white area in the middle is due to camera limited range, and few point cloud genrated by SLAM, 2) the visual sensor fails to locate the pipe beacuause of occlusion such as furniture. 
+- Volumetric map of the 3rd floor corridor of Uwaterloo engineering 7 building. The annotation in the red boundry box shows the location of pipe. 1) the white area in the middle is due to camera limited range, and few point cloud genrated by SLAM, 2) the visual sensor fails to locate the pipe because of occlusions such as furniture. 
 ![Experiment 2](https://github.com/Maaz-qureshi98/Volumetric-Mapping/blob/main/2.3.png)
 - ORBSLAM3 dense cloud map (without volumetric map feature) fails to detects the pipe.
 ![Experiment 2](https://github.com/Maaz-qureshi98/Volumetric-Mapping/blob/main/2.4.png)
