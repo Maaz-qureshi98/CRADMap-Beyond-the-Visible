@@ -35,9 +35,9 @@ Code Availability: The code will be open-sourced after the acceptance of our res
 ![Experiment 3](https://github.com/Maaz-qureshi98/Volumetric-Mapping/blob/main/3.2.jpg)
 
 ![Experiment 3](https://github.com/Maaz-qureshi98/Volumetric-Mapping/blob/main/3.3.jpg)
-- Volumetric map, visual node failed to map what is present behind the wall. 
+- Volumetric map, visual node fails to map what is present behind the wall. 
 ![Experiment 3](https://github.com/Maaz-qureshi98/Volumetric-Mapping/blob/main/3.4.png)
-- ORBLSAM3 dense map failed to make point cloud of studs present behind the wall.
+- ORBLSAM3 dense map fails to make point cloud of studs present behind the wall.
 ![Experiment 3](https://github.com/Maaz-qureshi98/Volumetric-Mapping/blob/main/3.5.png)
 - ORB features by ORBSLAM3. FOV of visual node i.e. OAK-D Pro camera.
 ![Experiment 3](https://github.com/Maaz-qureshi98/Volumetric-Mapping/blob/main/3.6.png)
