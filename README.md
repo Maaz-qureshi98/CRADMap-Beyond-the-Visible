@@ -9,16 +9,16 @@ Code Availability: The code will be open-sourced after the acceptance of our res
 ![Experiment 1](https://github.com/Maaz-qureshi98/Volumetric-Mapping/blob/main/1.3.png)
 - ORB features by ORBSLAM3, visual node i.e. OAK-D Pro camera FOV. 
 ![Experiment 1](https://github.com/Maaz-qureshi98/Volumetric-Mapping/blob/main/1.4.png)
-- Radar map (point cloud) objects present in occlusion/ behind the obstacles highlighted inside red boundry box. 
+- Radar map (point cloud) objects present in occlusion/ behind the obstacles highlighted inside boundary box. 
 ![Experiment 1](https://github.com/Maaz-qureshi98/Volumetric-Mapping/blob/main/1.5.png)
 
 
 ## Section IV: Experiment 2 Figure 5
-- The annotation in red boundry box shows the horizontal vent pipe present close to floor, present behind the furniture.
+- The annotation in red boundary box shows the horizontal vent pipe present close to floor, present behind the furniture.
 ![Experiment 2](https://github.com/Maaz-qureshi98/Volumetric-Mapping/blob/main/2.1.jpg)
 
 ![Experiment 2](https://github.com/Maaz-qureshi98/Volumetric-Mapping/blob/main/2.2.jpg)
-- Volumetric map of the 3rd floor corridor of Uwaterloo engineering 7 building. The annotation in the red boundry box shows the location of pipe. 1) the white area in the middle is due to camera limited range, and few point cloud genrated by SLAM, 2) the visual sensor fails to locate the pipe because of occlusions such as furniture. 
+- Volumetric map of the 3rd floor corridor of Uwaterloo engineering 7 building. The annotation in the red boundary box shows the location of pipe. 1) the white area in the middle is due to camera limited range, and few point cloud genrated by SLAM, 2) the visual sensor fails to locate the pipe because of occlusions such as furniture. 
 ![Experiment 2](https://github.com/Maaz-qureshi98/Volumetric-Mapping/blob/main/2.3.png)
 - ORBSLAM3 dense cloud map (without volumetric map feature) fails to detects the pipe.
 ![Experiment 2](https://github.com/Maaz-qureshi98/Volumetric-Mapping/blob/main/2.4.png)
@@ -29,7 +29,7 @@ Code Availability: The code will be open-sourced after the acceptance of our res
 
 
 ## Section IV: Experiment 3 Figure 6
-- Mapping Beyond Visual Line of Sight. 3 Metal studs present behind the wall annotation in the red boundry box shows their location. The view is completly blocked. 
+- Mapping Beyond Visual Line of Sight. 3 Metal studs present behind the wall annotation in the red boundary box shows their location. The view is completly blocked. 
 ![Experiment 3](https://github.com/Maaz-qureshi98/Volumetric-Mapping/blob/main/3.1.jpg)
 
 ![Experiment 3](https://github.com/Maaz-qureshi98/Volumetric-Mapping/blob/main/3.2.jpg)
