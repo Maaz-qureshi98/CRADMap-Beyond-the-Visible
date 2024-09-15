@@ -3,13 +3,13 @@ Code Availability: The code will be open-sourced after the acceptance of our res
 ## Section I Introduction: Figure 1
 - Robohub Lab Uwaterloo.
 ![Experiment 1](https://github.com/Maaz-qureshi98/Volumetric-Mapping/blob/main/1.1.jpg)
-- 360 degree volumteric map of the lab by single AMR.
+- 360 degree volumetric map of the lab by single AMR.
 ![Experiment 1](https://github.com/Maaz-qureshi98/Volumetric-Mapping/blob/main/1.2.png)
 - Dense cloud map by ORBSLAM3 without volumetric feature. 
 ![Experiment 1](https://github.com/Maaz-qureshi98/Volumetric-Mapping/blob/main/1.3.png)
 - ORB features by ORBSLAM3, visual node i.e. OAK-D Pro camera FOV. 
 ![Experiment 1](https://github.com/Maaz-qureshi98/Volumetric-Mapping/blob/main/1.4.png)
-- Radar maps (point cloud) of objects present in occlusion/ behind the obstacles highlighted inside red boundry box. 
+- Radar map (point cloud) objects present in occlusion/ behind the obstacles highlighted inside red boundry box. 
 ![Experiment 1](https://github.com/Maaz-qureshi98/Volumetric-Mapping/blob/main/1.5.png)
 
 
