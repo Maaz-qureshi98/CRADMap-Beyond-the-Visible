@@ -1,4 +1,4 @@
-# Volumetric Mapping with 5G Multi-Robots Autonomy and Obscured Data Enhancement with Radar Sensing
+# Beyond the Visible: Advanced Volumetric Mapping with 5G-Connected Multi-Robots and 4D Radar Sensing
 Code Availability: The code will be open-sourced after the acceptance of our research paper, which is currently under review. Stay tuned for updates!
 ## Section I Introduction: Figure 1
 - Robohub Lab Uwaterloo.
