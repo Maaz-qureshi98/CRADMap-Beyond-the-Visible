@@ -2,7 +2,7 @@
 # YouTube Video Link: https://youtu.be/Ru90XuQ1vd8
 
 Code Availability: The code will be open-sourced after the acceptance of our research paper, which is currently under review. Stay tuned for updates!
-## Section I Introduction: Figure 1
+## Section II Introduction: Fig. 1
 - Robohub Lab Uwaterloo.
 ![Experiment 1](https://github.com/Maaz-qureshi98/Volumetric-Mapping/blob/main/1.1.jpg)
 - 360 degree volumetric map of the lab by single AMR.
