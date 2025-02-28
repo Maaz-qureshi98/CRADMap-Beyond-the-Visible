@@ -15,7 +15,7 @@ Code Availability: The code will be open-sourced after the acceptance of our res
 ![Experiment 1](https://github.com/Maaz-qureshi98/Volumetric-Mapping/blob/main/1.5.png)
 
 
-## Section IV: Experiment 2 Figure 5
+## Section IV: Experiment Fig. 4
 - The annotation in red boundary box shows the horizontal vent pipe present close to floor, present behind the furniture.
 ![Experiment 2](https://github.com/Maaz-qureshi98/Volumetric-Mapping/blob/main/2.1.jpg)
 
@@ -30,7 +30,7 @@ Code Availability: The code will be open-sourced after the acceptance of our res
 ![Experiment 2](https://github.com/Maaz-qureshi98/Volumetric-Mapping/blob/main/2.6.png)
 
 
-## Section IV: Experiment 3 Figure 6
+## Section IV: Experiment Fig. 5 
 - Mapping Beyond Visual Line of Sight. 3 Metal studs present behind the wall annotation in the red boundary box shows their location. The view is completly blocked. 
 ![Experiment 3](https://github.com/Maaz-qureshi98/Volumetric-Mapping/blob/main/3.1.jpg)
 
