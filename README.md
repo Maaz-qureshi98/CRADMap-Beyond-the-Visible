@@ -1,7 +1,35 @@
 # CRADMap: Applied Distributed Volumetric Mapping with 5G-Connected Multi-Robots and 4D Radar Sensing
 # YouTube Video Link: https://youtu.be/Ru90XuQ1vd8
 
-Code Availability: The code will be open-sourced after the acceptance of our research paper, which is currently under review. Stay tuned for updates!
+The repository contains instructions and scripts
+to run distributed mapping on the turtlebot4 with
+centralized processing. 
+
+Requirements - Turtlebot:
+* Public IPv6 address without a firewall
+* Enough upstream capacity to stream ~5MByte/s
+* zstd-based depth image compression installed
+* Scripts from this repo
+
+Requirements - front end server:
+* Turtlebot docker container with --network=host
+* Public IPv6 address without a firewall
+* Enough downstream bandwith: ROBOT_COUNT * 5 MByts/s
+* COVINS backend docker
+* Script from this repo.
+
+Summary:
+* The robots oakd driver compresses the RGB and depth images separately
+  using PNG and zstd respectively.
+* The messages are then transferred to the fronti end server using ROS2
+* The front end docker runs a ROS2 ORB-SLAM3 with special COVINS patches.
+  It also runs the discovery server, one for each robot.
+  It submits key frames to the central COVINS server via a proprietary
+  protocol.
+* The COVINS backend server uses the keyframe information to build a
+  global map.
+* This runs ROS2 across the internet without any protections.
+
 ## Section II Introduction: Fig. 1
 - Robohub Lab Uwaterloo.
 ![Experiment 1](https://github.com/Maaz-qureshi98/Volumetric-Mapping/blob/main/1.1.jpg)
