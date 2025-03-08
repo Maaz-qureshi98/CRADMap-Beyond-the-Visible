@@ -1,0 +1,12 @@
+[Unit]
+Description=Quectel Connect Manager
+After=network.target
+
+[Service]
+ExecStart=/usr/local/qconnect/quectel-CM -4 -6
+Type=simple
+Restart=on-success
+
+[Install]
+WantedBy=multi-user.target
+

@@ -1,0 +1,1 @@
+KERNEL=="wwan0qmi0", TAG+="systemd", ENV{SYSTEMD_WANTS}="qconnect.service"
