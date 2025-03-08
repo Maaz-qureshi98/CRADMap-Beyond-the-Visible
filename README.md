@@ -2,7 +2,7 @@
 # YouTube Video Link: https://youtu.be/Ru90XuQ1vd8
 
 The repository contains instructions and scripts
-to run distributed mapping on the turtlebot4 with
+to run distributed mapping on the Autonomous Mobile Robots with
 centralized processing. 
 
 Requirements - Turtlebot:
