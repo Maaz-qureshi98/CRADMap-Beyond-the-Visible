@@ -7,6 +7,7 @@ to run distributed mapping on the Autonomous Mobile Robots with
 centralized processing. 
 
 Requirements - AMR(Robot):
+* Ubuntu 22.04, ROS2 Humble 
 * Public IPv6 address without a firewall
 * Enough upstream capacity to stream ~5MByte/s
 * zstd-based depth image compression installed
