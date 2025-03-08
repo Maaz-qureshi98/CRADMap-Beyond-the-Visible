@@ -8,66 +8,6 @@ With the COVINS-G release, we make the server back-end flexible enabling compati
 
  We provide guidance and examples how to run COVINS and COVINS-G on the [EuRoC dataset](https://projects.asl.ethz.ch/datasets/doku.php?id=kmavvisualinertialdatasets), as well as information beyond basic deployment, for example how the COVINS back-end can be deployed on a remote cloud computing instance. Instructions on running COVINS-G with different cameras such as Intel Realsense D455 and T265 Tracking camera, as well as different frontends like VINS-Fusion, ORB-SLAM3 and SVO-pro are also provided.
 
-## Index
-  - [1 Related Publications](#1-related-publications)
-  - [2 License](#2-license)
-  - [3 Basic Setup](#3-basic-setup)
-    - [Environment Setup](#environment-setup)
-    - [COVINS Installation](#covins-installation)
-    - [Installing ROS Support for the ORB-SLAM3 Front-End](#setup_ros)
-    - [Installing VINS-Fusion Front-End](#installing-vins-fusion-front-end)
-  - [4 Running COVINS](#4-running-covins)
-    - [COVINS Back-End](#run_covins)  
-      - [Running the COVINS Server Back-End](/docs/run_COVINS.md#run_be)
-      - [Running the ORB-SLAM3 Front-End](docs/run_COVINS.md#run_fe)
-      - [Visualization](docs/run_COVINS.md#run_viz)
-      - [User Interaction](docs/run_COVINS.md#run_intercation)
-      - [Parameters](docs/run_COVINS.md#run_params)
-      - [Output Files](docs/run_COVINS.md#run_out)
-      - [Running COVINS with ROS](docs/run_COVINS.md#run_ros)
-    - [COVINS-G Back-End](#run_covinsg)
-      - [Running the COVINS-G Server Back-End](docs/run_COVINS-G.md#run_be)
-      - [ORB-SLAM3 Front-End](docs/run_COVINS-G.md#run_fe_orb)
-      - [VINS-Fusion Front-End](docs/run_COVINS-G.md#run_fe_vins)
-      - [ROS-based Front-End Wrapper](docs/run_COVINS-G.md#run_fe_ros)
-      - [Mixture of Front-Ends](docs/run_COVINS-G.md#run_fe_mix)
-      - [Realsense T265 Tracking Camera](docs/run_COVINS-G.md#run_t265)
-      - [Custom Dataset (Realsense D455)](docs/run_COVINS-G.md#run_d455)
-      - [Using SIFT Features](docs/run_COVINS-G.md#run_sift)
-      - [Visualization](docs/run_COVINS-G.md#run_viz)
-      - [User Interaction](docs/run_COVINS-G.md#run_intercation)
-      - [Parameters](docs/run_COVINS-G.md#run_params)
-      - [Output Files](docs/run_COVINS-G.md#run_out)
-  - [5 Docker Implementation](#5-docker-implementation)
-    - [Building the Docker Image](#building-the-docker-image)
-    - [Running the Docker Image](#running-the-docker-image)
-  - [6 Extended Functionalities](#6-extended-functionalities)
-    - [Deployment of the COVINS Back-End in an AWS Cloud Instance](#deployment-of-the-covins-back-end-in-an-aws-cloud-instance)
-    - [Interfacing a Custom VIO System with COVINS](#interfacing-a-custom-vio-system-with-covins)
-    - [Map Re-Use Onboard the Agent (Only for COVINS)](#map-re-use-onboard-the-agent-only-for-covins)
-  - [7 Limitations and Known Issues](#7-limitations-and-known-issues)
-
-<a name="related_publications"></a>
-## 1 Related Publications
-
-[***COVINS-G***] Manthan Patel, Marco Karrer, Philipp Bänninger and Margarita Chli. **COVINS-G: A Generic Back-end for Collaborative Visual-Inertial SLAM**. *IEEE International Conference on Robotics and Automation (ICRA)*, 2023. **[PDF](https://arxiv.org/abs/2301.07147)**
-
-[***COVINS***] Patrik Schmuck, Thomas Ziegler, Marco Karrer, Jonathan Perraudin and Margarita Chli. **COVINS: Visual-Inertial SLAM for Centralized Collaboration**. *IEEE International Symposium on Mixed and Augmented Reality (ISMAR)*, 2021. **[PDF](https://www.research-collection.ethz.ch/handle/20.500.11850/507909)**
-
-[*Redundancy Detection*] Patrik Schmuck and Margarita Chli. **On the Redundancy Detection in Keyframe-based SLAM**. *IEEE International Conference on 3D Vision (3DV)*, 2019. **[PDF](https://www.research-collection.ethz.ch/bitstream/handle/20.500.11850/380451/2019_redundancy_detection.pdf?sequence=1&isAllowed=y)**.
-
-[*System Architecture*] Patrik Schmuck and Margarita Chli. **CCM‐SLAM: Robust and Efficient Centralized Collaborative Monocular Simultaneous Localization and Mapping for Robotic Teams**. *Journal of Field Robotics (JFR)*, 2019. **[PDF](https://www.research-collection.ethz.ch/handle/20.500.11850/313259)**
-
-[*Collaborative VI-SLAM*] Patrik Schmuck, Marco Karrer and Margarita Chli. **CVI-SLAM - Collaborative Visual-Inertial SLAM**. *IEEE Robotics and Automation Letters (RA-L)*, 2018. **[PDF](https://www.research-collection.ethz.ch/bitstream/handle/20.500.11850/294281/2018_IROS_Karrer.pdf?sequence=7&isAllowed=y)**
-
-
-
-#### Video:
-COVINS-G: | COVINS:
---- | ---
-<a href="https://www.youtube.com/embed/FoJfXCfaYDw" target="_blank"><img src=".aux/COVINS-G_cover.png" alt="Mesh" width="420" height="270" border="10" /></a> | <a href="https://www.youtube.com/embed/FxJTY5x1fGE" target="_blank"><img src="https://i.ytimg.com/vi/FxJTY5x1fGE/hqdefault.jpg" alt="Mesh" width="360" height="270" border="10" /></a>
-
-<a name="license"></a>
 ## 2 License
 
 COVINS is released under a [GPLv3 license](https://github.com/VIS4ROB-lab/covins/blob/master/.aux/licencse_gpl.txt). For a list of code/library dependencies (and associated licenses), please see [thirdparty_code.md](https://github.com/VIS4ROB-lab/covins/blob/master/.aux/thirdparty_code.md).
