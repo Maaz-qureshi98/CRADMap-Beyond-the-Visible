@@ -14,7 +14,7 @@ Requirements - AMR(Robot):
 * Scripts from this repo
 
 Requirements - front end server:
-* Turtlebot docker container with --network=host
+* AMR docker container with --network=host
 * Public IPv6 address without a firewall
 * Enough downstream bandwith: ROBOT_COUNT * 5 MByts/s
 * COVINS backend docker
