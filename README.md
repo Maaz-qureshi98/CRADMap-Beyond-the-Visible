@@ -16,19 +16,11 @@ Requirements - front end server:
 * AMR docker container with --network=host
 * Public IPv6 address without a firewall
 * Enough downstream bandwith: ROBOT_COUNT * 5 MByts/s
-* COVINS backend docker
-* Script from this repo.
-
 Summary:
 * The robots oakd driver compresses the RGB and depth images separately
   using PNG and zstd respectively.
 * The messages are then transferred to the fronti end server using ROS2
-* The front end docker runs a ROS2 ORB-SLAM3 with special COVINS patches.
-  It also runs the discovery server, one for each robot.
-  It submits key frames to the central COVINS server via a proprietary
-  protocol.
-* The COVINS backend server uses the keyframe information to build a
-  global map.
+* The front end docker runs a ROS2 SLAM with patches.It also runs the discovery server, one for each robot.
 * This runs ROS2 across the internet without any protections.
 
 ## Section II Introduction: Fig. 1
