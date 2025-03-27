@@ -9,7 +9,7 @@ Requirements - AMR(Robot):
 * Ubuntu 22.04, ROS2 Humble 
 * Public IPv6 address without a firewall
 * Enough upstream capacity to stream ~5MByte/s
-* zstd-based depth image compression installed
+* image compression installed
 * Scripts from this repo
 
 Requirements - front end server:
