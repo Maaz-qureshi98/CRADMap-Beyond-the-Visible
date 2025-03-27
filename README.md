@@ -1,5 +1,4 @@
 # CRADMap: Applied Distributed Volumetric Mapping with 5G-Connected Multi-Robots and 4D Radar Sensing
-Read.me will be released after acceptance of research publication (Under Review)
 # YouTube Video Link: https://youtu.be/Ru90XuQ1vd8
 
 The repository contains instructions and scripts
