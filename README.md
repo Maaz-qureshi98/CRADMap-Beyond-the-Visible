@@ -4,7 +4,7 @@
 
 The repository contains instructions and scripts
 to run distributed mapping on the Autonomous Mobile Robots with
-centralized processing. 
+centralized processing. And for BtV Radar: https://github.com/Maaz-qureshi98/Radar-ROS2_Perception-4DmmWave
 
 Requirements - AMR(Robot):
 * Ubuntu 22.04, ROS2 Humble 
